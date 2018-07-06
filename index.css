@@ -1,24 +1,24 @@
 body{
-	background-color: #232323;
+	background-color: #232323 !important;
 	margin: 0;
-	font-family: font-family: 'Jura', sans-serif;	
+	font-family: font-family: 'Jura', sans-serif;
 }
 
 .square{
-	width: 30%;
+	width: 20vw;
 	background-color: purple;
-	padding-bottom: 30%;
-	float: right;
-	margin: 1.66%;
+	height: 28vh;
+	margin: 1%;
 	border-radius: 15%;
 	transition: background 0.7s;
 	-webkit-transition: background 0.7s;
 	-moz-transition: background 0.7s;
+	margin-bottom: 10px !important;
+
 }
 
 .container{
-	max-width: 600px;
-	margin: 20px auto;
+	margin: 50px auto;
 }
 
 h1{
@@ -64,4 +64,8 @@ button{
 button:hover{
 	background-color: steelblue;
 	color:white;
+}
+.row{
+	text-align: center;
+	padding-left: 10%;	
 }
