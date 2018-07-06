@@ -1,4 +1,4 @@
-
+var count=0;
 var size=6; 
 var color=generaterandomcolor(size);
 var pickedcolor=pickcolor();
@@ -26,12 +26,16 @@ function setupmodebutton(){
 
     this.textContent===	"EASY"?size=3:size=6;
      reset();
+     count++;
   	});
   }
 }
 
 newcolor.addEventListener("click",function(){
-	reset()});
+	reset()
+	count++;
+	modal()
+});
 
 function reset(){
 	//genrate color
@@ -113,8 +117,16 @@ function randomcolor() {
 	return "rgb("+r+", "+g+", "+b+")";
 }
 
-
-
+/*setTimeout(function() {
+    $('#my').modal();
+}, 2000);
+*/
+function modal(){
+if(count>6)
+{
+	$('#my').modal();
+}
+}
 
 
 

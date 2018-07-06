@@ -1,0 +1,60 @@
+img {
+	width: 50%;
+	height: 100%;	
+}
+
+.c1{
+
+	margin: 3% -13%;
+}
+.c2{
+	margin-top: -15%;
+	margin-right: -20%;
+	font-size: 130%;
+
+}
+.c3{
+   margin-top: -5%;
+	margin-right: -20%;
+	font-size: 100%;
+
+}
+.c4{
+   margin-top: 10%;
+	margin-right: -20%;
+	font-size: 100%;
+
+}
+.form-element {
+display: flex; 
+flex-direction: column;
+padding-bottom: 3vh;
+margin-top: 3%;
+padding-left: 2vh;
+}
+
+label { 
+font-weight: 500;
+padding-bottom: 0.5vh; transition: border 0.3s linear 0.1s;
+text-transform: uppercase;
+}
+input, textarea {
+border: none;
+border-bottom: 1px solid deepskyblue;
+color: grey;
+padding: 5px;
+transition: border-bottom 0.3s linear
+0.1s;
+} 
+input:focus, textarea:focus {
+outline: none;
+border-bottom: 3px solid
+mediumturquoise;
+}
+
+.c5{
+	margin-top: 10%;
+	margin-right: -20%;
+	font-size: 80%;
+	color: grey;
+}
