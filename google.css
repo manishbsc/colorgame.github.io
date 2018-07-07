@@ -61,6 +61,11 @@ mediumturquoise;
 .container{
 max-width: 1025;
 margin:20px auto;
+max-height: 100px;
 }
+
+body {
+  margin: 0;
+padding: 0; }
 
 
