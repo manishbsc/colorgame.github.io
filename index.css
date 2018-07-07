@@ -7,13 +7,14 @@ body{
 .square{
 	width: 20vw;
 	background-color: purple;
-	height: 28vh;
-	margin: 1%;
+	height: 25vh;
+	margin: 2%;
 	border-radius: 15%;
 	transition: background 0.7s;
 	-webkit-transition: background 0.7s;
 	-moz-transition: background 0.7s;
 	margin-bottom: 10px !important;
+	margin-left:10px !important; 
 
 }
 
@@ -22,18 +23,18 @@ body{
 }
 
 h1{
-	color: white;
 	background-color: steelblue;
 	margin: 0;
 	text-align:center;
 	text-transform: uppercase;
+	max-height: 30vh;
 }
 
 
 #stripe {
 	color: black;
 	background : white;
-	height: 30px;
+	height: 5vh;
     text-align: center;
 }
 .selected{
@@ -41,7 +42,8 @@ h1{
 	color: white;
 }
 #displaycolor{
-	font-size: 200%;
+	font-size: 110%;
+	max-height: 25vh;
 }
 button{
 	background-color: none;
@@ -69,3 +71,7 @@ button:hover{
 	text-align: center;
 	padding-left: 10%;	
 }
+/*.maxh{
+	max-height: 30vh;
+	overflow: hidden;
+}*/
